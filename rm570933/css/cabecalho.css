@@ -4,11 +4,20 @@
     background-color: #812821;
     color: #fff;
     width: 100%;
-    height: 50px;
+    height: auto;
 }
 
-@media (orientation: portrait){    
-    .cabecalho{
-    background-color: #861271;
-    }
+.cabecalho__nav, .cabecalho__ul{
+    width: 100%;
+    height: 100%;
+}
+
+.cabecalho__li{
+    display: inline-block;
+    margin: 1.5rem, 2rem;
+    padding: 1rem;
+}
+
+.cabecalho__li--active{
+    float: right
 }
