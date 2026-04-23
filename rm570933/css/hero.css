@@ -52,16 +52,3 @@
     text-decoration: none;
     background: linear-gradient(90deg, var(--bs-primary), var(--bs-primary-hover));
 }
-
-@media (max-width 1440px){
-.hero__title{
-    font-size: 2500rem;
-    margin-top: 10rem;
-    margin-bottom: 5rem;
-}
-
-.hero__text{
-    line-height: 15rem;
-    font-size: 350rem;
-}   
-}
