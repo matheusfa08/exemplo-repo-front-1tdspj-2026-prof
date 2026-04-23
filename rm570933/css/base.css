@@ -26,6 +26,10 @@ body{
     height: 100vh;
     font-family: "arial", sans-serif;
     font-size: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 main{
@@ -36,3 +40,7 @@ ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
