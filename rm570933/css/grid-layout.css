@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    display: grid;
+    
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr); 
+
+    height: 100%;
+}
+
+.cabecalho{
+    background-color: #781621;
+    text-align: center;
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+
+.conteudo{
+    background-color: #937842;
+    text-align: center;
+    grid-column: 1/6;
+    grid-row: 2/5;
+}
+
+.rodape{
+    background-color: #163882;
+    text-align: center;
+    grid-column: 1/6;
+    grid-row: 5/6
+}
